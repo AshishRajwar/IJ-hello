@@ -6,20 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 public class HelloApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(HelloApplication.class, args);
 	}
-
-	@GetMapping("/hello1")
-	public String getHello()  {
-		if (true) {
-			return "Hello 1";
-		} else {
-			return "hellooo 1";
-		}
-	}
-
 }
