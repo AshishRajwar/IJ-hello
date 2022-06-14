@@ -14,7 +14,7 @@ public class helloController {
     @GetMapping("/hello1")
     public String getHello()  {
         if (true) {
-            return "Hello 11";
+            return "Hello 1";
         } else {
             return "hellooo 1";
         }
