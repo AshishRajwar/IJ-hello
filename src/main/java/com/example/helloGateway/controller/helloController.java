@@ -1,10 +1,10 @@
-package com.example.hello.controller;
+package com.example.helloGateway.controller;
 
-import com.example.hello.model.AuthenticationRequest;
-import com.example.hello.model.AuthenticationResponse;
-import com.example.hello.service.EmailSenderService;
-import com.example.hello.service.MyUserDetailService;
-import com.example.hello.util.JwtUtil;
+import com.example.helloGateway.model.AuthenticationRequest;
+import com.example.helloGateway.model.AuthenticationResponse;
+import com.example.helloGateway.service.EmailSenderService;
+import com.example.helloGateway.service.MyUserDetailService;
+import com.example.helloGateway.util.JwtUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;

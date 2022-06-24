@@ -1,4 +1,4 @@
-package com.example.hello.model;
+package com.example.helloGateway.model;
 
 public class AuthenticationRequest {
 

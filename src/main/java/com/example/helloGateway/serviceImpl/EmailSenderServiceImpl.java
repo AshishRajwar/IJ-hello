@@ -1,6 +1,6 @@
-package com.example.hello.serviceImpl;
+package com.example.helloGateway.serviceImpl;
 
-import com.example.hello.service.EmailSenderService;
+import com.example.helloGateway.service.EmailSenderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;

@@ -1,6 +1,6 @@
-package com.example.hello.serviceImpl;
+package com.example.helloGateway.serviceImpl;
 
-import com.example.hello.service.MyUserDetailService;
+import com.example.helloGateway.service.MyUserDetailService;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

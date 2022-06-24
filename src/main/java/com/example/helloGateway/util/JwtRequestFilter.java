@@ -1,6 +1,6 @@
-package com.example.hello.util;
+package com.example.helloGateway.util;
 
-import com.example.hello.service.MyUserDetailService;
+import com.example.helloGateway.service.MyUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -14,7 +14,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.rmi.server.ServerCloneException;
 
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {

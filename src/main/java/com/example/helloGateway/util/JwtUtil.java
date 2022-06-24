@@ -1,4 +1,4 @@
-package com.example.hello.util;
+package com.example.helloGateway.util;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
